@@ -101,7 +101,7 @@ public class MicroserviceController {
 	}
 	
 	
-	@PatchMapping//actualización parcial-> PATCH->http://ip:port/pet?id=id,status=AVAILABLE
+	@PutMapping("/status") //actualización parcial-> PATCH->http://ip:port/pet?id=id,status=AVAILABLE
 	public ResponseEntity<String> updateAdoptionStatus(
 			@RequestParam("id") long id, 
 			@RequestParam("status") AdoptionStatus status
