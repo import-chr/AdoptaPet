@@ -1,5 +1,4 @@
 # Microservicio de Adoptantes
-
 Este microservicio representa la administración de personas interesadas en adoptar una mascota.
 
 La entidad principal será `Adopter`, la cual almacena la información básica del adoptante para que pueda participar en un proceso de adopción.
@@ -7,7 +6,6 @@ La entidad principal será `Adopter`, la cual almacena la información básica d
 ---
 
 ## Entidad: Adopter
-
 La entidad `Adopter` representa a una persona que desea adoptar una mascota dentro del sistema.
 
 ## elementos que se deben de respetar
@@ -19,7 +17,6 @@ La entidad `Adopter` representa a una persona que desea adoptar una mascota dent
 ---
 
 ## Atributos sugeridos
-
 - id
 - firstName
 - lastName
@@ -30,7 +27,6 @@ La entidad `Adopter` representa a una persona que desea adoptar una mascota dent
 ---
 
 ## Funcionalidades requeridas
-
 1. Registrar un adoptante.
 2. Consultar todos los adoptantes.
 3. Buscar adoptante por id.
@@ -42,7 +38,6 @@ La entidad `Adopter` representa a una persona que desea adoptar una mascota dent
 ---
 
 ## Reglas básicas
-
 - El email del adoptante debe ser único.
 - El nombre y apellido son obligatorios.
 - El teléfono es obligatorio.
@@ -52,7 +47,6 @@ La entidad `Adopter` representa a una persona que desea adoptar una mascota dent
 ---
 
 ## Endpoints sugeridos
-
 | Método HTTP | Endpoint | Descripción |
 |---|---|---|
 | POST | `/adopter` | Registrar un nuevo adoptante |
@@ -62,3 +56,15 @@ La entidad `Adopter` representa a una persona que desea adoptar una mascota dent
 | GET | `/ap/adopter/lastname/{lastName}` | Buscar adoptantes por apellido |
 | PUT | `/adopter` | Actualizar información de un adoptante |
 | DELETE | `/adopter/{id}` | Eliminar un adoptante por id |
+
+## Variables de ambiente usadas por el microservicio
+- **PORT default(9092)**: representa el puerto donde se ejecuta el microservicio
+- **DB_IP default(localhost)**: representa la IP del servidor MySQL
+- **DB_PORT default(3306)**: representa el puerto del servidor MySQL
+- **DB_NAME default(microservicepet)**: nombre de la base de datos al que se conectara el microservicio
+- **DB_USER default(root)**: usuario de la base de datos
+- **DB_PASSWORD default(abc123)**: contraseña de la base de datos
+- **EUREKA_IP default(localhost)**: IP del servidor de descubrimiento Eureka
+- **EUREKA_PORT default(9999)**: puerto de conexión al servidor de descubrimiento Eureka
+- **CONFIG_IP default(localhost)**: IP del servidor de configuracion
+- **CONFIG_PORT default(7777)**: puerto del servidor de configuracion
