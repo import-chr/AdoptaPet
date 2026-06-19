@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Java_17-ED8B00?logo=openjdk&logoColor=white" alt="Java 17">
+  <img src="https://img.shields.io/badge/Apache_Maven-C71A36?logo=apache-maven&logoColor=white" alt="Maven">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?logo=spring&logoColor=white" alt="Spring Cloud">
+  <img src="https://img.shields.io/badge/Netflix_Eureka-E50914?logo=netflix&logoColor=white" alt="Eureka">
+  <img src="https://img.shields.io/badge/Resilience4j-8A2BE2?logo=github&logoColor=white" alt="Resilience4j">
+  <img src="https://img.shields.io/badge/OpenFeign-4169E1?logo=spring&logoColor=white" alt="OpenFeign">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=white" alt="Insomnia">
+</p>
+
 # AdoptaPet
 
 Sistema de adopción de mascotas desarrollado con una arquitectura de microservicios usando **Spring Boot** y **Spring Cloud**.
